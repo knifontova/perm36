@@ -1,0 +1,75 @@
+body {
+  background-color: #050117;
+  color: #ffffff;
+  font-family: "Ubuntu Sans", sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  padding-left: 2vmin;
+}
+
+main > div {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0vmin 1vmin 0vmin 3vmin;
+}
+
+#text {
+  width: 45%;
+}
+
+#text a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#text p, ul {
+  margin: 2vmin 0 0 0;
+  line-height: 1.2;
+}
+
+mark {
+  color: inherit;
+  background-color: #9a031e;
+  font-weight: bold;
+  /* font-style: italic; */
+}
+
+#map {
+  width: 35%;
+}
+
+#map > svg {
+  border-radius: 3px;
+}
+
+#pattern_forest polygon {
+  fill: rgba(199, 219, 191, 0.3);
+}
+
+.Buildings_regime:hover path {
+  fill: #630314;
+}
+
+.Buildings_regime:hover .Buildings_text_regime {
+  display: block !important;
+}
+
+footer {
+  padding-left: 1vmin;
+}
+
+footer summary {
+  font-weight: bold;
+}
+
+footer ul {
+  margin-top: 0px;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
